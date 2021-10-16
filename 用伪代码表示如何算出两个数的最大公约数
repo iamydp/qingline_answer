@@ -1,0 +1,9 @@
+input m,n
+if m<n then swap m,n
+t=mod(m,n)
+while r≠0 do
+  m=n  
+  n=r  
+r=mod(m,n)
+end do
+print n
